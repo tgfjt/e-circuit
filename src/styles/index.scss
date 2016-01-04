@@ -1,0 +1,15 @@
+@import "./base/variable.scss";
+
+@import "./components/Line.scss";
+@import "./components/Register.scss";
+@import "./components/Light.scss";
+@import "./components/Battery.scss";
+
+.Register,
+.Battery,
+.Light,
+.Line {
+  .is-moving {
+    stroke: $color-moving;
+  }
+}

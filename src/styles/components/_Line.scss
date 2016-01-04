@@ -1,0 +1,7 @@
+@import "../base/variable.scss";
+
+.Line {
+  stroke: $color-black;
+  stroke-width: $line-width;
+  fill: $color-white;
+}

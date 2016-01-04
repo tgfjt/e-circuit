@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "removeComments": true
+  },
+  "files": [
+    "./src/ts/app.ts",
+    "./src/ts/components/Line.ts",
+    "./src/ts/components/Light.ts",
+    "./src/ts/components/Battery.ts",
+    "./src/ts/components/Register.ts",
+    "./src/ts/typings/node/node.d.ts",
+    "./src/ts/typings/snapsvg/snapsvg.d.ts",
+    "./src/ts/typings/domready/domready.d.ts"
+  ]
+}

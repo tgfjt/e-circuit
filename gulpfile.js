@@ -11,6 +11,7 @@ const streamify = require('gulp-streamify');
 const uglify = require('gulp-uglify');
 const gulpif = require('gulp-if');
 const assign = require('lodash.assign');
+const ghPages = require('gulp-gh-pages');
 
 const env = process.env.NODE_ENV
 
@@ -65,6 +66,11 @@ gulp.task('build:css', function() {
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('public/css'))
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('./public/**/*')
+    .pipe(ghPages());
 });
 
 gulp.task('js', ['build:ts'], bundle);

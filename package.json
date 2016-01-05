@@ -12,6 +12,7 @@
     "browserify": "^12.0.1",
     "ecstatic": "^1.4.0",
     "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-if": "^2.0.0",
     "gulp-sass": "^2.1.1",
     "gulp-sourcemaps": "^1.6.0",

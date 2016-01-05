@@ -25,7 +25,7 @@ export default class Light extends BaseParts {
       svg.circle(68.8, 87, 15),
       svg.line(58.2, 76.4, 79.4, 97.6),
       svg.line(58.2, 97.6, 79.4, 76.4)
-    ).addClass('Bulb');
+    );
 
     this.group = svg.group(
       this.setPortGroup(this.l1),

@@ -1,7 +1,5 @@
 @import "../base/variable.scss";
 
 .Light {
-  fill: $color-white;
-  stroke-width: $line-width;
-  stroke: $color-black;
+  @include line();
 }

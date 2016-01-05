@@ -1,11 +1,7 @@
 @import "../base/variable.scss";
 
 .Register {
-  circle {
-    fill: $color-white;
-    stroke-width: $line-width;
-    stroke: $color-black;
-  }
+  @include line();
 
   polyline {
     fill: None;

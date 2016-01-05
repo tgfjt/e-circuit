@@ -1,0 +1,7 @@
+@import "../base/variable.scss";
+
+@mixin line() {
+  fill: $color-white;
+  stroke: $color-black;
+  stroke-width: $line-width;
+}

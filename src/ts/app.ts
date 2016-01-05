@@ -8,7 +8,7 @@ import Battery from "./components/Battery";
 import Register from "./components/Register";
 
 domready(() => {
-  const s = Snap('#out');
+  const s = Snap('#js-out');
 
   const line1 = new Line(s);
   const light1 = new Light(s);

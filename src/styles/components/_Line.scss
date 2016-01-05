@@ -1,7 +1,5 @@
-@import "../base/variable.scss";
+@import "../mixins/line.scss";
 
 .Line {
-  stroke: $color-black;
-  stroke-width: $line-width;
-  fill: $color-white;
+  @include line();
 }

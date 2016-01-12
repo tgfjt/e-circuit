@@ -1,0 +1,27 @@
+.Stripboard {
+
+  &-row {
+    transition: fill 2s linear;
+
+    rect {
+      fill: #f0f0f0;
+    }
+
+    &:hover {
+      rect {
+        fill: #c0c0c0;
+        animation-name: fill;
+        animation-duration: .5s;
+      }
+    }
+  }
+}
+
+@keyframes fill {
+    0% {
+        fill: #f0f0f0;
+    }
+    100% {
+        fill: #c0c0c0;
+    }
+}

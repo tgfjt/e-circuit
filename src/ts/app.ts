@@ -14,4 +14,11 @@ domready(() => {
   const light1 = new Light(s);
   const battery1 = new Battery(s);
   const register1 = new Register(s);
+
+  s.group(
+    line1.group,
+    light1.group,
+    battery1.group,
+    register1.group
+  ).addClass('Inventory');
 });

@@ -11,6 +11,7 @@ domready(function () {
     var light1 = new Light_1.default(s);
     var battery1 = new Battery_1.default(s);
     var register1 = new Register_1.default(s);
+    s.group(line1.group, light1.group, battery1.group, register1.group).addClass('Inventory');
 });
 
 },{"./components/Battery":2,"./components/Light":3,"./components/Line":4,"./components/Register":5,"domready":7}],2:[function(require,module,exports){

@@ -1,9 +1,12 @@
 @import "./base/variable.scss";
 
+@import "./components/Inventory.scss";
 @import "./components/Line.scss";
 @import "./components/Register.scss";
 @import "./components/Light.scss";
 @import "./components/Battery.scss";
+@import "./components/Stripboard.scss";
+@import "./components/Hole.scss";
 
 .Register,
 .Battery,
